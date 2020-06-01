@@ -3,12 +3,13 @@ package de.neuefische.order.service;
 import de.neuefische.order.db.OrderDB;
 import de.neuefische.order.db.ProductDB;
 import de.neuefische.order.model.Order;
-import de.neuefische.order.model.Product;
+import de.neuefische.order.model.product.Product;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -61,10 +62,10 @@ class OrderServiceTest {
         ProductDB db = new ProductDB(products);
 
         //WHEN
-        Product result = db.getProductById("3");
+        Optional<Product> result = db.getProductById("3");
 
         //THEN
-        assertEquals(new Product ("3","Ananas"), result);
+        assertEquals(new Product ("3","Ananas"), result.get());
     }
 
     @Test

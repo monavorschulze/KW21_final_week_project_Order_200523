@@ -3,9 +3,12 @@ package de.neuefische;
 import de.neuefische.order.db.OrderDB;
 import de.neuefische.order.db.ProductDB;
 import de.neuefische.order.model.Order;
-import de.neuefische.order.model.Product;
+import de.neuefische.order.model.product.NonPerishableProduct;
+import de.neuefische.order.model.product.PerishableProduct;
+import de.neuefische.order.model.product.Product;
 import de.neuefische.order.service.OrderService;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -51,9 +54,9 @@ public class AppMain {
 
     private static ProductDB setupProduct() {
         ArrayList<Product> initialProducts = new ArrayList<>();
-        initialProducts.add(new Product("1","Bommel"));
-        initialProducts.add(new Product("2","Pinguin"));
-        initialProducts.add(new Product("3","Ananas"));
+        initialProducts.add(new NonPerishableProduct("1","Bommel"));
+        initialProducts.add(new NonPerishableProduct("2","Pinguin"));
+        initialProducts.add(new PerishableProduct("3","Ananas", LocalDate.of(2020,6,15)));
         return new ProductDB (initialProducts);
     }
 

@@ -1,6 +1,6 @@
 package de.neuefische.order.db;
 
-import de.neuefische.order.model.Product;
+import de.neuefische.order.model.product.Product;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

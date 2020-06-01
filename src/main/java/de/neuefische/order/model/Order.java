@@ -1,5 +1,7 @@
 package de.neuefische.order.model;
 
+import de.neuefische.order.model.product.Product;
+
 import java.util.ArrayList;
 import java.util.Objects;
 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6c20485-86a2-4d01-a7d1-8c6917093ff4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/order/model/product/NonPerishableProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/order/model/product/PerishableProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Woche_3_Freitagsaufgabe_Lösung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Woche_3_Freitagsaufgabe_Lösung.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/AppMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/AppMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/order/db/OrderDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/order/db/OrderDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/order/db/ProductDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/order/db/ProductDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/order/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/order/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/order/model/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/order/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/neuefische/order/db/ProductDBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/order/db/ProductDBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/neuefische/order/service/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/order/service/OrderServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ciGzf7FxBqRw0aFMhTLnF99vIH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.AppMain" />
+      <module name="Woche_3_Freitagsaufgabe_Lösung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6c20485-86a2-4d01-a7d1-8c6917093ff4" name="Default Changelist" comment="" />
+      <created>1591004263659</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591004263659</updated>
+      <workItem from="1591004268555" duration="4171000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2138" y="75" key="#com.intellij.ide.util.MemberChooser" timestamp="1591008389724">
+      <screen x="1680" y="-71" width="1440" height="877" />
+    </state>
+    <state x="2138" y="75" key="#com.intellij.ide.util.MemberChooser/1680.-71.1440.877/0.23.1680.947@1680.-71.1440.877" timestamp="1591007142750" />
+    <state x="2138" y="75" key="#com.intellij.ide.util.MemberChooser/1680.-71.1440.877/0.23.1680.949@1680.-71.1440.877" timestamp="1591008389724" />
+    <state x="1938" y="29" key="Maven.ArtifactSearchDialog" timestamp="1591007762595">
+      <screen x="1680" y="-71" width="1440" height="877" />
+    </state>
+    <state x="1938" y="29" key="Maven.ArtifactSearchDialog/1680.-71.1440.877/0.23.1680.949@1680.-71.1440.877" timestamp="1591007762595" />
+    <state x="2227" y="150" key="refactoring.ChangeSignatureDialog" timestamp="1591008356604">
+      <screen x="1680" y="-71" width="1440" height="877" />
+    </state>
+    <state x="2227" y="150" key="refactoring.ChangeSignatureDialog/1680.-71.1440.877/0.23.1680.949@1680.-71.1440.877" timestamp="1591008356604" />
+  </component>
+</project>
